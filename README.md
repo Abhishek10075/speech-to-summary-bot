@@ -60,7 +60,8 @@ Copy code
 
 All required libraries are managed using `requirements.txt`.
 
-Example:
+Example content of `requirements.txt`:
+
 whisper
 crewai
 langchain-google-genai
@@ -70,7 +71,8 @@ litellm
 cpp
 Copy code
 
-Install them using:
+Install dependencies using:
+
 ```bash
 pip install -r requirements.txt
 ⚙️ Setup Instructions
@@ -126,9 +128,9 @@ Agent Role: Meeting Minutes Specialist
 
 Task:
 
-Analyze transcript
+Analyze the transcript
 
-Generate structured meeting summary
+Generate a structured meeting summary
 
 Output Format:
 
@@ -141,7 +143,7 @@ Important Decisions
 Action Items
 
 🔮 Future Improvements
-Multilingual transcription (Hindi, regional languages)
+Multilingual transcription (Hindi and regional languages)
 
 Speaker diarization (who spoke what)
 
@@ -153,3 +155,7 @@ Cloud integration (Google Drive / Slack)
 
 📜 License
 This project is created for educational and learning purposes.
+
+markdown
+Copy code
+
