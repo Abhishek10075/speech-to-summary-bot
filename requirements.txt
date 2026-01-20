@@ -1,0 +1,20 @@
+openai-whisper
+crewai
+crewai-tools
+google-generativeai
+ffmpeg-python
+
+# 🔹 Audio handling
+pydub
+
+# 🔹 Whisper dependency (model run ke liye)
+torch
+
+# 🔹 Environment variables (API keys safely store karne ke liye)
+python-dotenv
+
+# 🔹 Progress bar (long audio processing ke time useful)
+tqdm
+
+# 🔹 Text processing (cleaning & splitting)
+nltk
